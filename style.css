@@ -1,11 +1,20 @@
+/* estilos globales a todos los etiquetas */
+
 body {
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     margin-top: 20px;
 
+}
+
+main {
+    flex: 1;
 }
 
 nav {
@@ -14,6 +23,50 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 5rem;
+}
+
+h2 {
+    margin: 3rem;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+article {
+    width: 30%;
+    padding: 10px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid;
+    border-color: rgb(220, 226, 226);
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* clases */
 
 .boton-nav {
     background: none;
@@ -30,22 +83,19 @@ nav {
     color: white;
 }
 
-.nav-servicios {
-    color: white;
-}
-
 .titulo-servicio {
     text-align: center;
 }
 
-.contacto-boton {
-    background-color: black;
-    font-size: 1.2rem;
-    margin: 40px;
-    color: white;
+.texto-legible {
+    text-shadow: -1.1px -1.1px 0 #000,
+        1.1px -1.1px 0 #000,
+        -1.1px 1.1px 0 #000,
+        1.1px 1.1px 0 #000;
+    ;
 }
 
-.contacto-boton-servicio {
+.contacto-boton {
     background-color: black;
     font-size: 1.2rem;
     margin: 40px;
@@ -66,14 +116,6 @@ nav {
     font-size: 1.2rem;
 }
 
-a {
-    text-decoration: none;
-}
-
-
-
-
-
 
 .imagen-prin-ser {
     width: 112rem;
@@ -91,16 +133,6 @@ a {
 
 .sect-dos-serv {
     padding: 3.5rem;
-}
-
-h1 {
-    font-size: 5rem;
-    margin: 5rem;
-}
-
-h2 {
-    margin: 3rem;
-    font-size: 4rem;
 }
 
 .primer-parrafo-inicio {
@@ -129,11 +161,8 @@ h2 {
     background-color: rgb(248, 249, 250);
 }
 
-article {
-    width: 30%;
-    padding: 10px;
-}
 
-img {
-    border-radius: 15px;
+.container {
+    display: flex;
+    justify-content: left;
 }
