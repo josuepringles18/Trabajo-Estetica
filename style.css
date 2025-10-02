@@ -37,6 +37,9 @@ h2 {
     margin: 3rem;
     font-size: 4rem;
 }
+.segundo-subtitulo-sob-nosotros {
+    font-size: 2rem;
+}
 
 p {
     font-size: 1.4rem;
@@ -95,6 +98,11 @@ footer {
         -1.1px 1.1px 0 #000,
         1.1px 1.1px 0 #000;
     ;
+}
+
+.subtitulo-sobre-nosotros {
+  color: #adaaaa;
+  font-size: 1.5rem;
 }
 
 .contacto-boton {
