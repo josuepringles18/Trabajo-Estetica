@@ -45,7 +45,8 @@
                 <h1>Agendá tu cita</h1>
             </div>
             <div>
-                <img class="img-fluid" src="imagen.png" alt="imagen representativa para contactarnos">
+                <img class="img-fluid img-de-contacto" src="../imagenes/elizabethcontacto.jpg"
+                    alt="imagen representativa para contactarnos">
             </div>
         </section>
         <section>
@@ -54,39 +55,63 @@
             </div>
         </section>
         <section>
-            <form action="/submit" method="post"></form>
+            <form action="/submit" method="post">
+                <div class="container text-center">
+                    <div class="row" style="width: 90vw;">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <label for="nombre">Nombre</label>
+                                        <input type="text" name="Nombre" id="nombre">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <label for="apellido">Apellido</label>
+                                        <input type="text" name="Apellido" id="apellido">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="email">Dirección de correo electrónico</label>
+                                <input type="email" name="Email" id="email">
+                            </div>
+                            <div class="row">
+                                <label for="mensaje">Tu mensaje</label>
+                                <textarea name="Introduce tu mensaje" id="mensaje"></textarea>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <input type="submit" value="Enviar" class="contacto-boton">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
 
-            <label for="nombre">Nombre</label>
-            <input type="text" name="Nombre" id="nombre">
 
-            <label for="apellido">Apellido</label>
-            <input type="text" name="Apellido" id="apellido">
-
-            <label for="email">Dirección de correo electrónico</label>
-            <input type="email" name="Email" id="email">
-
-            <label for="mensaje">Tu mensaje</label>
-            <textarea name="Introduce tu mensaje" id="mensaje"></textarea>
-
-            <input type="submit" value="Enviar" class="contacto-boton">
         </section>
     </main>
-     <footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h3>Nuestras redes sociales</h3>
                     <ul>
                         <li><a href="https//facebook.com">
-                                <img class="img-fluid" src="../imagenes/facebook.png" alt="facebook" height="15px" width="15px">
+                                <img class="img-fluid" src="../imagenes/facebook.png" alt="facebook" height="15px"
+                                    width="15px">
                             </a></li>
 
                         <li><a href="https//youtube.com">
-                                <img class="img-fluid" src="../imagenes/youtube.png" alt="youtube" height="20px" width="20px">
+                                <img class="img-fluid" src="../imagenes/youtube.png" alt="youtube" height="20px"
+                                    width="20px">
                             </a></li>
 
-                        <li><a href="https//instagram.com"><img class="img-fluid" src="../imagenes/instagram.png" alt="instagram"
-                                    height="20px" width="20px"></a></li>
+                        <li><a href="https//instagram.com"><img class="img-fluid" src="../imagenes/instagram.png"
+                                    alt="instagram" height="20px" width="20px"></a></li>
                     </ul>
                 </div>
                 <div class="col">
