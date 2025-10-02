@@ -40,6 +40,7 @@ h2 {
 
 p {
     font-size: 1.4rem;
+    margin: 60px
 }
 
 article {
@@ -87,6 +88,7 @@ footer {
     text-align: center;
 }
 
+/* h1 y primer p servicios */
 .texto-legible {
     text-shadow: -1.1px -1.1px 0 #000,
         1.1px -1.1px 0 #000,
@@ -116,6 +118,24 @@ footer {
     font-size: 1.2rem;
 }
 
+.card-text {
+    color: #adaaaa;
+}
+
+.separacion {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.card-body {
+    padding: 30px;
+    width: 90%;
+}
 
 .imagen-prin-ser {
     width: 112rem;
@@ -137,7 +157,6 @@ footer {
 
 .primer-parrafo-inicio {
     font-size: 40px;
-    margin: 60px
 }
 
 .boton-ver {
@@ -152,6 +171,7 @@ footer {
     color: rgb(187, 181, 181);
     font-size: 1.5em;
     width: 20%;
+    margin: 0px;
 }
 
 .seccion-tres-inicio {
@@ -166,3 +186,8 @@ footer {
     display: flex;
     justify-content: left;
 }
+
+
+
+
+@media (max-width:980px) {}
