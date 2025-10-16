@@ -1,0 +1,263 @@
+@import "variables";
+
+/* estilos globales a todos los etiquetas */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 20px;
+
+}
+
+main {
+    flex: 1;
+
+    h1 {
+        font-size: $font-size-x-x-large;
+        margin: 5rem;
+    }
+
+    h2 {
+        margin: 3rem;
+        font-size: $font-size-x-large;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.segundo-subtitulo-sob-nosotros {
+    font-size: $font-size-large;
+    margin: 10px;
+}
+
+p {
+    font-size: $font-size-medium;
+    margin: 30px;
+}
+
+article {
+    width: 30%;
+    padding: 10px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+
+    a {
+        color: black;
+    }
+
+    text-align: center;
+    border-top: 1px solid;
+    border-color: $footer-color;
+    padding-top: 20px;
+    margin-top: 60px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* clases */
+
+.boton-nav,
+.boton-nav-servicios {
+    background: none;
+    border-width: 0;
+    font-size: $font-size-chico;
+    margin: 15px;
+}
+
+.boton-nav-servicios {
+    color: $color-texto-boton-especial;
+}
+
+.titulo-servicio {
+    text-align: center;
+}
+
+/* h1 y primer p servicios */
+.texto-legible {
+    text-shadow: -1.1px -1.1px 0 $color-sombra,
+        1.1px -1.1px 0 $color-sombra,
+        -1.1px 1.1px 0 $color-sombra,
+        1.1px 1.1px 0 $color-sombra;
+    ;
+}
+
+.parrafo-productos,
+.subtitulo-sobre-nosotros {
+    color: $color-texto-especial;
+    margin: 10px;
+}
+
+.subtitulo-sobre-nosotros {
+    font-size: $font-size-normal;
+}
+
+// animacion de botones
+.contacto-boton {
+    background-color: $background-color-boton-especial;
+    font-size: $font-size-chico;
+    margin: 40px;
+    color: $color-texto-boton-especial;
+    transition: background-color 0.5s ease;
+}
+
+.contacto-boton:hover {
+    background-color: rgb(120, 197, 193);
+    color: black;
+    opacity: 0;
+    animation: animacionboton 3s infinite;
+}
+
+.btn {
+
+    opacity: 0;
+    animation: animacionboton 3s infinite;
+}
+
+.boton-ver {
+    background-color: $background-color-boton-especial;
+    color: $color-texto-boton-especial;
+    font-size: 20px;
+    margin: 60px;
+    padding: 15px;
+}
+
+.boton-ver:hover {
+    background-color: rgb(120, 197, 193);
+    color: black;
+}
+
+.boton-productos,
+.boton-sob-nos {
+    padding-inline: 15rem;
+}
+
+.boton-inicio-servicio {
+    color: $color-texto-boton-especial;
+    border-width: 0;
+    background: none;
+    margin: 15px;
+    font-size: $font-size-chico;
+}
+
+.boton-inicio-comentario{
+    padding: 7px;
+    background-color: rgb(209, 209, 209);
+    border: none;
+    transition: background-color 0.5s ease;
+}
+
+.boton-inicio-comentario:hover {
+    background-color: rgb(120, 197, 193);
+    opacity: 0;
+    animation: animacionboton 3s infinite;
+}
+
+
+
+
+.imagen-fondo-servicio {
+    background-image: url("imagenes/fondo.png");
+    background-size: cover;
+    color: $color-texto-claro-resalta;
+}
+
+.card-text {
+    color: $color-texto-especial;
+}
+
+.separacion {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.card-body {
+    padding: 30px;
+    width: 90%;
+}
+
+.imag-seg,
+.imagen-prin-ser {
+    width: 112rem;
+    margin: 1rem;
+}
+
+.img-de-contacto {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 95vw;
+}
+
+.sect-dos-serv,
+.sect-uno-serv {
+    padding: 3.5rem;
+}
+
+.seccion-tres-inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $background-color-seccion-especial;
+}
+
+.primer-parrafo-inicio {
+    font-size: 40px;
+}
+
+.parrafo-final-inicio {
+    color: $color-texto-obscuro-resalta;
+    font-size: $font-size-normal;
+    width: 20%;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+@keyframes animacionboton {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
