@@ -1,4 +1,4 @@
-@import "variables";
+@import "colores";
 
 /* estilos globales a todos los etiquetas */
 
@@ -70,7 +70,7 @@ ul {
 footer {
 
     a {
-        color: black;
+        color: $color-texto-links;
     }
 
     text-align: center;
@@ -130,8 +130,8 @@ footer {
 }
 
 .contacto-boton:hover {
-    background-color: rgb(120, 197, 193);
-    color: black;
+    background-color: $background-color-secundario-boton;
+    color: $color-texto-boton-oscuro;
     opacity: 0;
     animation: animacionboton 3s infinite;
 }
@@ -151,8 +151,8 @@ footer {
 }
 
 .boton-ver:hover {
-    background-color: rgb(120, 197, 193);
-    color: black;
+    background-color: $background-color-secundario-boton;
+    color: $color-texto-boton-oscuro;
 }
 
 .boton-productos,
@@ -170,19 +170,16 @@ footer {
 
 .boton-inicio-comentario{
     padding: 7px;
-    background-color: rgb(209, 209, 209);
+    background-color: $background-color-terciario-boton;
     border: none;
     transition: background-color 0.5s ease;
 }
 
 .boton-inicio-comentario:hover {
-    background-color: rgb(120, 197, 193);
+    background-color: $background-color-secundario-boton;
     opacity: 0;
     animation: animacionboton 3s infinite;
 }
-
-
-
 
 .imagen-fondo-servicio {
     background-image: url("imagenes/fondo.png");
@@ -248,9 +245,6 @@ footer {
     display: flex;
     justify-content: left;
 }
-
-
-
 
 @keyframes animacionboton {
     0% {
