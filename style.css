@@ -172,11 +172,6 @@ footer {
   color: #adaaaa;
 }
 
-.separacion {
-  margin-right: 2rem;
-  margin-left: 2rem;
-}
-
 .card {
   background: none;
   border: none;
@@ -197,6 +192,11 @@ footer {
   margin-left: 2vw;
   margin-right: 2vw;
   width: 95vw;
+}
+
+.separacion {
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .sect-dos-serv,

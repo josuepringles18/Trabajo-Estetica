@@ -181,6 +181,8 @@ footer {
     animation: animacionboton 3s infinite;
 }
 
+// imagenes, cards y bordes.
+
 .imagen-fondo-servicio {
     background-image: url("imagenes/fondo.png");
     background-size: cover;
@@ -189,11 +191,6 @@ footer {
 
 .card-text {
     color: $color-texto-especial;
-}
-
-.separacion {
-    margin-right: 2rem;
-    margin-left: 2rem;
 }
 
 .card {
@@ -216,6 +213,11 @@ footer {
     margin-left: 2vw;
     margin-right: 2vw;
     width: 95vw;
+}
+
+.separacion {
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .sect-dos-serv,
